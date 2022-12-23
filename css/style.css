@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+
+}
+li{
+    list-style: none;
+}
+nav{
+    padding: 30px 0;
+    background:#000000;
+}
+nav .logo{
+    width: 20%;
+
+}
+nav .logo h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color:#000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#FFFFFF;
+    
+}
+nav .nav-item{
+    width: 60%;
+
+}
+nav .nav-item ul{
+    display: flex;
+    justify-content: center;
+}
+nav .nav-item ul li{
+    margin: 0 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color:#FFFFFF;
+    transition: .4s;
+}
+nav .nav-item ul li:hover{
+    color:#FFA343
+}
+nav .icon{
+    width: 20%;
+    
+}
+nav .icon ul{
+    display: flex;
+    justify-content: end;
+}
+nav .icon li {
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+/* -===============banner-start ================ */
+#banner-part {
+    background: url(../images/Rectangle\ 1\ 1.png) no-repeat center;
+    background-size: cover;
+}
+#banner-part .text{
+    padding-top:465px;
+    padding-bottom: 459px;
+}
+#banner-part h3{
+    padding-top: 180px;
+    color:#FFC178;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 37px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+#banner-part h1{
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+}
+#banner-part h2{
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 88px;
+    font-weight: 400;
+}
+/* -===============banner-end ================ */
+/* ==============enjoy part =============== */
+#enjoy-part {
+    background: #000;
+    padding:174px 0;
+}
+#enjoy-part .left{
+    width: 45%;
+}
+#enjoy-part .left img{
+    width: 100%;
+}
+#enjoy-part .right{
+    width: 50%;
+}
+#enjoy-part .right h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:#FFC178;
+    margin-bottom: 13px;
+    padding-top: 45px;
+    letter-spacing: 6px;
+}
+#enjoy-part .right h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color:#FFFFFF;
+    width: 496px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+#enjoy-part .right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 66px;
+    line-height: 32px;
+}
+#enjoy-part .right a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:#FFC178;
+    text-transform: uppercase;
+}
+/* ==============enjoy part =============== */
+/* ============friend part ================== */
+#friend-part {
+    background: #000;
+    padding:174px 0;
+}
+#friend-part .right{
+    width: 45%;
+}
+#friend-part .right img{
+    width: 100%;
+}
+#friend-part .left{
+    width: 50%;
+}
+#friend-part .left h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:#FFC178;
+    margin-bottom: 19px;
+    padding-top: 150px;
+    letter-spacing: 6px;
+
+}
+#friend-part .left h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color:#FFFFFF;
+    width: 663px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+#friend-part .left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 66px;
+    width: 520px;
+    line-height: 32px;
+}
+#friend-part .left a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:#FFC178;
+    text-transform: uppercase;
+}
+/* ============friend part ================== */
+/* ==========footer =============== */
+footer{
+    background:#000000;
+    padding: 80px 0;
+}
+footer .top .left h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color:#FFFFFF
+}
+footer .top .right ul {
+    display: flex;
+}
+footer .top .right ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color:#FFFFFF;
+    margin-left: 54px;
+}
+footer .top .right ul li a{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color:#000000;
+    padding: 18px 67px;
+    background:#FFA343;
+    border-radius: 10px;
+}
+footer .down .item1{
+    width: 40%;
+
+}
+footer .down .item1 h2{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color:#FFFFFF;
+    
+}
+footer .down .item1 ul{
+    display: flex;
+    margin-top: 50px;
+}
+footer .down .item1 ul li{
+    margin-right: 100px;
+    color:#FFFFFF;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+footer .down {
+    margin-top: 82px;
+}
+footer .down .item2{
+    width: 10%;
+    
+}
+footer .down .item3{
+    width: 10%;
+   
+}
+footer .down .item4{
+    width: 10%;
+    
+}
+footer .down .item ul li{
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color:#FFFFFF;
+    margin: 25px 0;;
+    transition: .4s;
+}
+footer .down .item ul li:hover{
+    color:#FFC178;
+}
+
+footer .icon ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 167px;
+}
+footer .icon ul li{
+    color:#FFFFFF;
+    width: 24px;
+    height: 21px;
+    margin: 0 15px;
+    font-size: 20px;
+    transition: .4s;
+}
+footer .icon ul li:hover{
+    color:#FFA343;
+}
+footer .copy {
+    text-align: center;
+    margin-top: 84px;
+}
+footer .copy h3{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+/* ==========footer =============== */
